@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Price</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" alt="logo-ig=mg" class="logo" />
+        <ul>
+          <li><a href="#">Market</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">White Papers</a></li>
+        </ul>
+        <a href="#" class="btn">EN</a>
+      </nav>
+      <div class="content">
+        <h1>Buy & <br />Sell <span>Crypto</span></h1>
+        <p>
+          World's Biggest Crypto Currency Exchange available on web <br />
+          as well as on Mobile
+        </p>
+        <a href="https://cex.io/" target="_blank" class="btn">Explore More</a>
+      </div>
+      <div class="coin-list">
+        <div class="coin">
+          <img src="images/bitcoin.png" alt="" />
+          <div>
+            <h3>
+              $
+              <span id="bitcoin"></span>
+            </h3>
+            <p>Bitcoin</p>
+          </div>
+        </div>
+        <div class="coin">
+          <img src="images/ethereum.png" alt="" />
+          <div>
+            <h3>$<span id="ethereum"></span></h3>
+            <p>Ethereum</p>
+          </div>
+        </div>
+        <div class="coin">
+          <img src="images/dogecoin.png" alt="" />
+          <div>
+            <h3>$<span id="dogecoin"></span></h3>
+            <p>Dogecoin</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="table">
+        <h1 class="title">Search Any Currency Here </h1>
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+           
+          
+          </div>
+          </div> -->
+    
+  </div>
+   </div>
+   <div class="search-container">
+
+    <div class="search">
+      <input class="search-input" type="text" placeholder="Enter Currency Name" spellcheck="false" />
+      <button><img src="images/search.png" alt="Search Button" /></button>
+    </div>
+    <div class="data">
+      <h1 id="name">Not Searched Yet</h1>
+      <h1 id="price">No Price Yet</h1>
+
+    </div>
+
+  </div>
+
+
+  
+    <script src="script.js"></script>
+  </body>
+</html>
